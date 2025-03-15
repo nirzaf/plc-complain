@@ -94,6 +94,18 @@ const Home: React.FC = () => {
             </div>
             
             <div className="evidence-item">
+              <h4>Video: Before Demolition</h4>
+              <video controls className="evidence-video">
+                <source 
+                  src="https://ik.imagekit.io/mhvgbp9xk/land-images/before-demolition-video.mp4?updatedAt=1742002701977" 
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+              <p className="caption">Video evidence showing the property before any demolition work was carried out.</p>
+            </div>
+            
+            <div className="evidence-item">
               <h4>Image: After Demolition</h4>
               <img 
                 src="https://ik.imagekit.io/mhvgbp9xk/land-images/after-demolition.jpeg?updatedAt=1742002625396" 
@@ -220,6 +232,18 @@ const Home: React.FC = () => {
                   className="evidence-image"
                 />
                 <p className="caption">අනවසර වැඩ කටයුතු සිදු කිරීමට පෙර ප්‍රවේශ මාර්ගයේ මුල් තත්ත්වය පෙන්වයි.</p>
+              </div>
+              
+              <div className="evidence-item">
+                <h4>වීඩියෝව: විනාශයට පෙර</h4>
+                <video controls className="evidence-video">
+                  <source 
+                    src="https://ik.imagekit.io/mhvgbp9xk/land-images/before-demolition-video.mp4?updatedAt=1742002701977" 
+                    type="video/mp4"
+                  />
+                  ඔබගේ බ්‍රවුසරය වීඩියෝ ටැගය සඳහා සහාය නොදක්වයි.
+                </video>
+                <p className="caption">විනාශයට පෙර දේපළේ තත්ත්වය පෙන්වන වීඩියෝ සාක්ෂි.</p>
               </div>
               
               <div className="evidence-item">
