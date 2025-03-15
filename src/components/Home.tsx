@@ -29,15 +29,16 @@ const Home: React.FC = () => {
       {activeTab === 'english' ? (
         <>
         <div className="complaint-header">
-        <div className="logo-container">
-          <img 
-            src="https://ik.imagekit.io/mhvgbp9xk/land-images/sri-lanka-police-logo-920BA57BE5-seeklogo.com.png?updatedAt=1742002983464" 
-            alt="Sri Lanka Police Logo" 
-            className="police-logo"
-          />
+          <div className="draft-label">DRAFT</div>
+          <div className="logo-container">
+            <img 
+              src="https://ik.imagekit.io/mhvgbp9xk/land-images/sri-lanka-police-logo-920BA57BE5-seeklogo.com.png?updatedAt=1742002983464" 
+              alt="Sri Lanka Police Logo" 
+              className="police-logo"
+            />
+          </div>
+          <h1>Police Complaint Report</h1>
         </div>
-        <h1>Police Complaint Report</h1>
-      </div>
       
       <div className="complaint-content">
         <h2>Subject: Unauthorized Demolition of Common Path and Road Widening Encroaching on Land Described in Deed of Transfer No. 14999</h2>
@@ -156,6 +157,7 @@ const Home: React.FC = () => {
       ) : (
         <>
         <div className="complaint-header">
+          <div className="draft-label">කෙටුම්පත</div>
           <div className="logo-container">
             <img 
               src="https://ik.imagekit.io/mhvgbp9xk/land-images/sri-lanka-police-logo-920BA57BE5-seeklogo.com.png?updatedAt=1742002983464" 
