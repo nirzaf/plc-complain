@@ -10,6 +10,29 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.tab-button {
+  padding: 0.75rem 2rem;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-button.active {
+  background-color: #1a3a6e;
+  color: white;
+}
+
 .complaint-header {
   text-align: center;
   margin-bottom: 2rem;
