@@ -7,8 +7,8 @@ const Home: React.FC = () => {
   useEffect(() => {
     // Set page title based on active language tab
     document.title = activeTab === 'english' 
-      ? 'Police Complaint Report - Unauthorized Demolition Case' 
-      : 'පොලිස් පැමිණිලි වාර්තාව - අනවසර ඉඩම් විනාශය';
+      ? 'Online Police Complaint Generator - Unauthorized Demolition Case' 
+      : 'මාර්ගගත පොලිස් පැමිණිලි උත්පාදකය - අනවසර ඉඩම් විනාශය';
   }, [activeTab]);
   return (
     <div className="complaint-container">
@@ -37,7 +37,7 @@ const Home: React.FC = () => {
               className="police-logo"
             />
           </div>
-          <h1>Police Complaint Report</h1>
+          <h1>Online Police Complaint Generator</h1>
         </div>
       
       <div className="complaint-content">
@@ -177,7 +177,7 @@ const Home: React.FC = () => {
               className="police-logo"
             />
           </div>
-          <h1>පොලිස් පැමිණිලි වාර්තාව</h1>
+          <h1>මාර්ගගත පොලිස් පැමිණිලි උත්පාදකය</h1>
         </div>
         
         <div className="complaint-content">
