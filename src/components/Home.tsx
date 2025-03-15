@@ -1,8 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Home.css';
 
 const Home: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'english' | 'sinhala'>('english');
+  
+  useEffect(() => {
+    // Set page title based on active language tab
+    document.title = activeTab === 'english' 
+      ? 'Police Complaint Report - Unauthorized Demolition Case' 
+      : 'පොලිස් පැමිණිලි වාර්තාව - අනවසර ඉඩම් විනාශය';
+  }, [activeTab]);
   return (
     <div className="complaint-container">
       <div className="tabs-container">
