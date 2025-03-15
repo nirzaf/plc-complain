@@ -1,0 +1,145 @@
+/* Navbar styles */
+.navbar {
+  width: 100%;
+  background-color: #0a2463;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 60px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-text h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+}
+
+.sl-flag {
+  height: 20px;
+  width: auto;
+  margin-top: 5px;
+}
+
+.language-selector a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.language-selector a.active {
+  text-decoration: underline;
+}
+
+/* Navigation menu */
+.nav-menu {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-menu li {
+  position: relative;
+}
+
+.nav-menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.nav-menu li a:hover {
+  background-color: #e9ecef;
+}
+
+.nav-menu li.active a {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.nav-menu .dropdown a i {
+  margin-left: 5px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 10px 20px;
+}
+
+.search-box input {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 0.9rem;
+}
+
+.search-box button {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-left: none;
+  padding: 5px 10px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo-section {
+    margin-bottom: 10px;
+  }
+  
+  .nav-menu ul {
+    flex-direction: column;
+  }
+  
+  .search-box {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+  }
+}

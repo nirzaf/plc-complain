@@ -1,0 +1,140 @@
+.footer {
+  background-color: #0a2463;
+  color: white;
+  padding: 2rem 0 1rem;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footer-section h3:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #ffc107;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section ul li a:hover {
+  color: white;
+}
+
+.footer-section ul li i {
+  font-size: 0.6rem;
+  margin-right: 0.5rem;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  color: #ccc;
+}
+
+.contact-info li i {
+  margin-right: 0.5rem;
+  width: 20px;
+}
+
+.map-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sl-map {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.copyright {
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.copyright p {
+  margin: 0.3rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-section {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-links {
+    flex-wrap: wrap;
+  }
+}

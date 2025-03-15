@@ -5,12 +5,13 @@
 
 .app {
   min-height: 100vh;
-  background-color: #f0f2f5;
-  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
   .app {
-    padding: 1rem 0.5rem;
+    padding: 0;
   }
 }
