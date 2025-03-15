@@ -1,0 +1,16 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 2rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem 0.5rem;
+  }
+}
